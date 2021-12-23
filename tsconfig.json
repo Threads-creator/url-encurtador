@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",                           
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "noEmit": false,
+    "noEmitOnError": false,
+    "target": "es2016",                                   
+    "module": "commonjs", 
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,                               
+    "rootDir": "./src",                        
+    "outDir": "./dist", 
+    "sourceMap": true,
+    "lib": ["es6", "dom", "es2017", "es7"],
+    "esModuleInterop": true,                                      
+    "alwaysStrict": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true                             
+  }
+}
